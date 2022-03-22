@@ -1,0 +1,91 @@
+% $ biblatex auxiliary file $
+% $ biblatex bbl format version 3.1 $
+% Do not modify the above lines!
+%
+% This is an auxiliary file used by the 'biblatex' package.
+% This file may safely be deleted. It will be recreated by
+% biber as required.
+%
+\begingroup
+\makeatletter
+\@ifundefined{ver@biblatex.sty}
+  {\@latex@error
+     {Missing 'biblatex' package}
+     {The bibliography requires the 'biblatex' package.}
+      \aftergroup\endinput}
+  {}
+\endgroup
+
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{von_hagen_definitive_2006}{book}{}
+      \name{author}{1}{}{%
+        {{hash=ae6c825566f3473e203ee9e9efb3e213}{%
+           family={Von\bibnamedelima Hagen},
+           familyi={V\bibinitperiod\bibinitdelim H\bibinitperiod},
+           given={William},
+           giveni={W\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Berkeley, CA}%
+      }
+      \list{publisher}{1}{%
+        {Apress}%
+      }
+      \strng{namehash}{ae6c825566f3473e203ee9e9efb3e213}
+      \strng{fullhash}{ae6c825566f3473e203ee9e9efb3e213}
+      \strng{bibnamehash}{ae6c825566f3473e203ee9e9efb3e213}
+      \strng{authorbibnamehash}{ae6c825566f3473e203ee9e9efb3e213}
+      \strng{authornamehash}{ae6c825566f3473e203ee9e9efb3e213}
+      \strng{authorfullhash}{ae6c825566f3473e203ee9e9efb3e213}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{edition}{2nd ed}
+      \field{isbn}{9781590595855}
+      \field{title}{The definitive guide to {GCC}}
+      \field{year}{2006}
+      \keyw{Compilers (Computer programs)}
+    \endentry
+    \entry{aho_compilers:_2007}{book}{}
+      \name{editor}{2}{}{%
+        {{hash=87e9142329f09390b038692270dc2168}{%
+           family={Aho},
+           familyi={A\bibinitperiod},
+           given={Alfred\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+        {{hash=87e9142329f09390b038692270dc2168}{%
+           family={Aho},
+           familyi={A\bibinitperiod},
+           given={Alfred\bibnamedelima V.},
+           giveni={A\bibinitperiod\bibinitdelim V\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Boston}%
+      }
+      \list{publisher}{1}{%
+        {Pearson/Addison Wesley}%
+      }
+      \strng{namehash}{d0ecc656d568959f4e5a84bba58eae49}
+      \strng{fullhash}{d0ecc656d568959f4e5a84bba58eae49}
+      \strng{bibnamehash}{d0ecc656d568959f4e5a84bba58eae49}
+      \strng{editorbibnamehash}{d0ecc656d568959f4e5a84bba58eae49}
+      \strng{editornamehash}{d0ecc656d568959f4e5a84bba58eae49}
+      \strng{editorfullhash}{d0ecc656d568959f4e5a84bba58eae49}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{editor}
+      \field{labeltitlesource}{shorttitle}
+      \field{edition}{2nd ed}
+      \field{isbn}{9780321486813}
+      \field{shorttitle}{Compilers}
+      \field{title}{Compilers: principles, techniques, \& tools}
+      \field{year}{2007}
+      \keyw{Compilers (Computer programs)}
+    \endentry
+  \enddatalist
+\endrefsection
+\endinput
+
