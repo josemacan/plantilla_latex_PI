@@ -10,3 +10,6 @@
     - Tamaño de fuente
     - Tipo de fuente
     - Tamano maximo de un listing de codigo
+5. Primera página de cada capítulo (la que contiene el título del capitulo) no tiene encabezado y pie de página. Solamente numero de pagina centrado en pie de pagina
+6. Captions para figuras: abajo. Captions para tablas: arriba? abajo?
+7. 

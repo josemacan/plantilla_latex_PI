@@ -6,7 +6,6 @@
 
 % --------- CONCEPTO DE COMPILACION
 
-
 \subsection{Concepto de Compilación}
 
     \textbf{Compilación}: Conjunto de procesos efectuados para obtener un archivo ejecutable
@@ -18,6 +17,7 @@
 
     Los siguientes conceptos son fundamentales para introducir la clasificación.
     \begin{itemize}
+        \setstretch{1}
         \item \textbf{\emph{Host}}: arquitectura de la máquina en la que va a correr el compilador.
         \item \textbf{\emph{Build}}: arquitectura que se usa para generar el compilador.
         \item \textbf{\emph{Target}}: arquitectura en la que deberá correr el ejecutable generado por el
@@ -26,7 +26,7 @@
     
     \begin{table}[t]
         \centering
-            \caption{Clasificación de compiladores.}
+            \caption{Clasificación de compiladores (Fuente: The definitive guide to GCC, \cite{von_hagen_definitive_2006}) }
             \label{tab:TiposCompiladores}
             \begin{tabular}{ | p{0.23\linewidth} | p{0.7\linewidth} | }
                 \hline
@@ -55,7 +55,7 @@
         \begingroup
             \centering
                 \includegraphics[scale=0.5]{fases_comp}
-                \caption{Fases de compilación.}
+                \caption{Fases de compilación (Fuente: (Modificado) Compilers: principles, techniques, \& tools, \cite{aho_compilers:_2007}) }
                 \label{fig:fasesComp}
             \par
         \endgroup
@@ -76,6 +76,7 @@
     \end{equation}
     Siendo, 
     \begin{itemize}
+        \setstretch{1}
         \item \textbf{nombre-token}: símbolos abstractos usados durante el análisis sintáctico.
         \item \textbf{valor-atributo}: puntero a una entrada en la tablas de símbolos.
     \end{itemize}
@@ -156,8 +157,9 @@ Todo código intermedio debe cumplir las propiedades de:
         \begingroup
             \centering
                 \includegraphics[width=0.8\textwidth,height=0.8\textheight,keepaspectratio]{ejemplo_fasescomp}
-                \caption{Ejemplo completo de fases de compilación.\cite{aho_compilers:_2007}}
+                \caption{Ejemplo completo de fases de compilación (Fuente: Compilers: principles, techniques, \& tools, \cite{aho_compilers:_2007}) }
                 \label{fig:fasesEjemplo}
             \par
         \endgroup
     \end{figure}
+

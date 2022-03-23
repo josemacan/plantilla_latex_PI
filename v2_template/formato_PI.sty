@@ -8,6 +8,10 @@
 %% ---- INTERLINEADO
 \usepackage{setspace}
 
+\usepackage{caption}                       % Leyendas para figuras y tablas.
+\captionsetup[table]{font={stretch=1}}     % Interlineado 1.5 para leyendas en tablas
+\captionsetup[figure]{font={stretch=1}}    % Interlineado 1.5 para leyendas en figuras
+
 \renewcommand{\baselinestretch}{1.5}    % Interlineado 1.5 para cuerpo
 
 %% ---- CARACTERES
@@ -29,8 +33,12 @@
                                         % "es-tabla" para traducir table como tabla 
 
 \usepackage[style=spanish]{csquotes}    % Formato de citas
-\usepackage[style=ieee]{biblatex}       % BIBLATEX para manejo de bibliografia - Estilo: IEEE
-\addbibresource{citations.bib}          % NOMBRE DEL ARCHIVO QUE CONTIENE REFERENCIAS DE BIBLIOGRAFIA
+\usepackage[style=ieee, defernumbers=true]{biblatex}       % BIBLATEX para manejo de bibliografia - Estilo: IEEE
+\addbibresource{bibliografia.bib}          % NOMBRE DEL ARCHIVO QUE CONTIENE BIBLIOGRAFIA
+\addbibresource{referencias.bib}          % NOMBRE DEL ARCHIVO QUE CONTIENE REFERENCIAS
+
+
+
 
 \DefineBibliographyStrings{spanish}{    % Renombrado de leyenda para campo URL en idioma espanol al imprimir biliografia
   url = {[En línea]. Disponible en:},
@@ -44,10 +52,9 @@
 
 %% ---- ELEMENTOS 
 
-
 \usepackage{float}                      % Permite definir tablas o figuras como objetos flotantes
 
-\usepackage{caption}                    % Leyendas para figuras y tablas.
+%\usepackage{caption}                   % Incluido en apartado: Interlineado. Leyendas para figuras y tablas.
 
 \usepackage{nomencl}                    % REVISAR FUNCIONAMIENTO --- Lista de simbolos
 \makenomenclature
@@ -137,23 +144,21 @@
 
 % --- Titulo para capitulo ---
 
-
-
 % --- Titulo para seccion ---
 
-\renewcommand{\thesection}{\Roman{section}}
-\titleformat{\section}{\center\Large\bfseries}{\thesection}{3em}{}
+%\renewcommand{\thesection}{\Roman{section}}
+%\titleformat{\section}{\center\Large\bfseries}{\thesection}{3em}{}
 
 % --- Titulo para subsecciones ---
 
-\renewcommand{\thesubsection}{\Alph{subsection}}
-\titleformat{\subsection}{\filright\large\itshape}{\thesubsection}{1em}{}
+%\renewcommand{\thesubsection}{\Alph{subsection}}
+%\titleformat{\subsection}{\filright\large\itshape}{\thesubsection}{1em}{}
 
 % --- Titulo para subsubsecciones ---
 
-\renewcommand{\thesubsubsection}{\arabic{subsubsection})} 
-\titleformat{\subsubsection}{\filright\normalsize\itshape}{\thesubsubsection}{1em}{}
-\titlespacing{\subsubsection}{1em}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
+%\renewcommand{\thesubsubsection}{\arabic{subsubsection})} 
+%\titleformat{\subsubsection}{\filright\normalsize\itshape}{\thesubsubsection}{1em}{}
+%\titlespacing{\subsubsection}{1em}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
 
 % --- Titulo para paragraphs ---
 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.15)  22 MAR 2022 00:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 21.12.10) (preloaded format=pdflatex 2021.12.15)  22 MAR 2022 22:50
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -61,20 +61,36 @@ Package: xstring 2021/07/21 v1.84 String manipulations (CT)
 \AC@clearlist=\toks16
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/setspace\setspace.sty
 Package: setspace 2011/12/19 v6.7a set line spacing
+) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2020/10/26 v3.5g Customizing captions (AR)
+ (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
+ (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+\captionmargin=\dimen139
+\captionmargin@=\dimen140
+\captionwidth=\dimen141
+\caption@tempdima=\dimen142
+\caption@indent=\dimen143
+\caption@parindent=\dimen144
+\caption@hangindent=\dimen145
+Package caption Info: Standard document class detected.
+)
+\c@caption@flags=\count278
+\c@continuedfloat=\count279
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
 Package: inputenc 2021/02/14 v1.3d Input encoding file
-\inpenc@prehook=\toks17
-\inpenc@posthook=\toks18
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\times.sty
 Package: times 2020/03/25 PSNFSS-v9.3 (SPQR) 
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
- (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
-Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
-\KV@toks@=\toks19
-) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+ (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
@@ -85,16 +101,16 @@ Package graphics Info: Driver file: pdftex.def on input line 107.
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
-\Gin@req@height=\dimen139
-\Gin@req@width=\dimen140
+\Gin@req@height=\dimen146
+\Gin@req@width=\dimen147
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
 Package: babel 2021/11/29 3.67 The Babel package
-\babel@savecnt=\count278
-\U@D=\dimen141
+\babel@savecnt=\count280
+\U@D=\dimen148
 \l@unhyphenated=\language79
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
 \bbl@readstream=\read2
-\bbl@dirlevel=\count279
+\bbl@dirlevel=\count281
 
 *************************************
 * Local config file bblopts.cfg used
@@ -104,7 +120,7 @@ File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of 
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.ldf
 Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
 \es@quottoks=\toks20
-\es@quotdepth=\count280
+\es@quotdepth=\count282
 Package babel Info: Making " an active character on input line 570.
 Package babel Info: Making . an active character on input line 675.
 Package babel Info: Making < an active character on input line 722.
@@ -113,14 +129,14 @@ Package babel Info: Making > an active character on input line 722.
 Package: csquotes 2021-02-22 v5.2l context-sensitive quotations (JAW)
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count281
+\etb@tempcnta=\count283
 )
-\csq@reset=\count282
-\csq@gtype=\count283
-\csq@glevel=\count284
-\csq@qlevel=\count285
-\csq@maxlvl=\count286
-\csq@tshold=\count287
+\csq@reset=\count284
+\csq@gtype=\count285
+\csq@glevel=\count286
+\csq@qlevel=\count287
+\csq@maxlvl=\count288
+\csq@tshold=\count289
 \csq@ltx@everypar=\toks21
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/csquotes\csquotes.def
 File: csquotes.def 2021-02-22 v5.2l csquotes generic definitions (JAW)
@@ -152,7 +168,7 @@ Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
 Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
 )) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
-\lrq@indent=\count288
+\lrq@indent=\count290
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 )) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
@@ -161,48 +177,48 @@ Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
-\c@tabx@nest=\count289
-\c@listtotal=\count290
-\c@listcount=\count291
-\c@liststart=\count292
-\c@liststop=\count293
-\c@citecount=\count294
-\c@citetotal=\count295
-\c@multicitecount=\count296
-\c@multicitetotal=\count297
-\c@instcount=\count298
-\c@maxnames=\count299
-\c@minnames=\count300
-\c@maxitems=\count301
-\c@minitems=\count302
-\c@citecounter=\count303
-\c@maxcitecounter=\count304
-\c@savedcitecounter=\count305
-\c@uniquelist=\count306
-\c@uniquename=\count307
-\c@refsection=\count308
-\c@refsegment=\count309
-\c@maxextratitle=\count310
-\c@maxextratitleyear=\count311
-\c@maxextraname=\count312
-\c@maxextradate=\count313
-\c@maxextraalpha=\count314
-\c@abbrvpenalty=\count315
-\c@highnamepenalty=\count316
-\c@lownamepenalty=\count317
-\c@maxparens=\count318
-\c@parenlevel=\count319
-\blx@tempcnta=\count320
-\blx@tempcntb=\count321
-\blx@tempcntc=\count322
-\blx@maxsection=\count323
-\blx@maxsegment@0=\count324
-\blx@notetype=\count325
-\blx@parenlevel@text=\count326
-\blx@parenlevel@foot=\count327
-\blx@sectionciteorder@0=\count328
-\blx@entrysetcounter=\count329
-\blx@biblioinstance=\count330
+\c@tabx@nest=\count291
+\c@listtotal=\count292
+\c@listcount=\count293
+\c@liststart=\count294
+\c@liststop=\count295
+\c@citecount=\count296
+\c@citetotal=\count297
+\c@multicitecount=\count298
+\c@multicitetotal=\count299
+\c@instcount=\count300
+\c@maxnames=\count301
+\c@minnames=\count302
+\c@maxitems=\count303
+\c@minitems=\count304
+\c@citecounter=\count305
+\c@maxcitecounter=\count306
+\c@savedcitecounter=\count307
+\c@uniquelist=\count308
+\c@uniquename=\count309
+\c@refsection=\count310
+\c@refsegment=\count311
+\c@maxextratitle=\count312
+\c@maxextratitleyear=\count313
+\c@maxextraname=\count314
+\c@maxextradate=\count315
+\c@maxextraalpha=\count316
+\c@abbrvpenalty=\count317
+\c@highnamepenalty=\count318
+\c@lownamepenalty=\count319
+\c@maxparens=\count320
+\c@parenlevel=\count321
+\blx@tempcnta=\count322
+\blx@tempcntb=\count323
+\blx@tempcntc=\count324
+\blx@maxsection=\count325
+\blx@maxsegment@0=\count326
+\blx@notetype=\count327
+\blx@parenlevel@text=\count328
+\blx@parenlevel@foot=\count329
+\blx@sectionciteorder@0=\count330
+\blx@entrysetcounter=\count331
+\blx@biblioinstance=\count332
 \labelnumberwidth=\skip49
 \labelalphawidth=\skip50
 \biblabelsep=\skip51
@@ -214,9 +230,9 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 \blx@bcfin=\read3
 \blx@bcfout=\write3
 \blx@langwohyphens=\language80
-\c@mincomprange=\count331
-\c@maxcomprange=\count332
-\c@mincompwidth=\count333
+\c@mincomprange=\count333
+\c@maxcomprange=\count334
+\c@mincompwidth=\count335
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
@@ -226,74 +242,74 @@ Package biblatex Info: Trying to load biblatex style data model...
 Package biblatex Info: ... file 'ieee.dbx' not found.
 Package biblatex Info: Trying to load biblatex custom data model...
 Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
-\c@afterword=\count334
-\c@savedafterword=\count335
-\c@annotator=\count336
-\c@savedannotator=\count337
-\c@author=\count338
-\c@savedauthor=\count339
-\c@bookauthor=\count340
-\c@savedbookauthor=\count341
-\c@commentator=\count342
-\c@savedcommentator=\count343
-\c@editor=\count344
-\c@savededitor=\count345
-\c@editora=\count346
-\c@savededitora=\count347
-\c@editorb=\count348
-\c@savededitorb=\count349
-\c@editorc=\count350
-\c@savededitorc=\count351
-\c@foreword=\count352
-\c@savedforeword=\count353
-\c@holder=\count354
-\c@savedholder=\count355
-\c@introduction=\count356
-\c@savedintroduction=\count357
-\c@namea=\count358
-\c@savednamea=\count359
-\c@nameb=\count360
-\c@savednameb=\count361
-\c@namec=\count362
-\c@savednamec=\count363
-\c@translator=\count364
-\c@savedtranslator=\count365
-\c@shortauthor=\count366
-\c@savedshortauthor=\count367
-\c@shorteditor=\count368
-\c@savedshorteditor=\count369
-\c@labelname=\count370
-\c@savedlabelname=\count371
-\c@institution=\count372
-\c@savedinstitution=\count373
-\c@lista=\count374
-\c@savedlista=\count375
-\c@listb=\count376
-\c@savedlistb=\count377
-\c@listc=\count378
-\c@savedlistc=\count379
-\c@listd=\count380
-\c@savedlistd=\count381
-\c@liste=\count382
-\c@savedliste=\count383
-\c@listf=\count384
-\c@savedlistf=\count385
-\c@location=\count386
-\c@savedlocation=\count387
-\c@organization=\count388
-\c@savedorganization=\count389
-\c@origlocation=\count390
-\c@savedoriglocation=\count391
-\c@origpublisher=\count392
-\c@savedorigpublisher=\count393
-\c@publisher=\count394
-\c@savedpublisher=\count395
-\c@language=\count396
-\c@savedlanguage=\count397
-\c@origlanguage=\count398
-\c@savedoriglanguage=\count399
-\c@pageref=\count400
-\c@savedpageref=\count401
+\c@afterword=\count336
+\c@savedafterword=\count337
+\c@annotator=\count338
+\c@savedannotator=\count339
+\c@author=\count340
+\c@savedauthor=\count341
+\c@bookauthor=\count342
+\c@savedbookauthor=\count343
+\c@commentator=\count344
+\c@savedcommentator=\count345
+\c@editor=\count346
+\c@savededitor=\count347
+\c@editora=\count348
+\c@savededitora=\count349
+\c@editorb=\count350
+\c@savededitorb=\count351
+\c@editorc=\count352
+\c@savededitorc=\count353
+\c@foreword=\count354
+\c@savedforeword=\count355
+\c@holder=\count356
+\c@savedholder=\count357
+\c@introduction=\count358
+\c@savedintroduction=\count359
+\c@namea=\count360
+\c@savednamea=\count361
+\c@nameb=\count362
+\c@savednameb=\count363
+\c@namec=\count364
+\c@savednamec=\count365
+\c@translator=\count366
+\c@savedtranslator=\count367
+\c@shortauthor=\count368
+\c@savedshortauthor=\count369
+\c@shorteditor=\count370
+\c@savedshorteditor=\count371
+\c@labelname=\count372
+\c@savedlabelname=\count373
+\c@institution=\count374
+\c@savedinstitution=\count375
+\c@lista=\count376
+\c@savedlista=\count377
+\c@listb=\count378
+\c@savedlistb=\count379
+\c@listc=\count380
+\c@savedlistc=\count381
+\c@listd=\count382
+\c@savedlistd=\count383
+\c@liste=\count384
+\c@savedliste=\count385
+\c@listf=\count386
+\c@savedlistf=\count387
+\c@location=\count388
+\c@savedlocation=\count389
+\c@organization=\count390
+\c@savedorganization=\count391
+\c@origlocation=\count392
+\c@savedoriglocation=\count393
+\c@origpublisher=\count394
+\c@savedorigpublisher=\count395
+\c@publisher=\count396
+\c@savedpublisher=\count397
+\c@language=\count398
+\c@savedlanguage=\count399
+\c@origlanguage=\count400
+\c@savedoriglanguage=\count401
+\c@pageref=\count402
+\c@savedpageref=\count403
 \shorthandwidth=\skip57
 \shortjournalwidth=\skip58
 \shortserieswidth=\skip59
@@ -317,19 +333,19 @@ Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2020/12/31 v3.16 biblatex compatibility (PK/MW)
-\c@textcitecount=\count402
-\c@textcitetotal=\count403
-\c@textcitemaxnames=\count404
-\c@biburlbigbreakpenalty=\count405
-\c@biburlbreakpenalty=\count406
-\c@biburlnumpenalty=\count407
-\c@biburlucpenalty=\count408
-\c@biburllcpenalty=\count409
+\c@textcitecount=\count404
+\c@textcitetotal=\count405
+\c@textcitemaxnames=\count406
+\c@biburlbigbreakpenalty=\count407
+\c@biburlbreakpenalty=\count408
+\c@biburlnumpenalty=\count409
+\c@biburlucpenalty=\count410
+\c@biburllcpenalty=\count411
 \biburlbigskip=\muskip17
 \biburlnumskip=\muskip18
 \biburlucskip=\muskip19
 \biburllcskip=\muskip20
-\c@smartand=\count410
+\c@smartand=\count412
 )
 Package biblatex Info: Trying to load bibliography style 'ieee'...
 Package biblatex Info: ... file 'ieee.bbx' found.
@@ -347,8 +363,8 @@ Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.bbx
 File: standard.bbx 2020/12/31 v3.16 biblatex bibliography style (PK/MW)
-\c@bbx:relatedcount=\count411
-\c@bbx:relatedtotal=\count412
+\c@bbx:relatedcount=\count413
+\c@bbx:relatedtotal=\count414
 ))))
 Package biblatex Info: Trying to load citation style 'ieee'...
 Package biblatex Info: ... file 'ieee.cbx' found.
@@ -358,10 +374,10 @@ Package biblatex Info: Trying to load citation style 'numeric-comp'...
 Package biblatex Info: ... file 'numeric-comp.cbx' found.
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\numeric-comp.cbx
 File: numeric-comp.cbx 2020/12/31 v3.16 biblatex citation style (PK/MW)
-\c@cbx@tempcnta=\count413
-\c@cbx@tempcntb=\count414
-\c@cbx@tempcntc=\count415
-\c@cbx@tempcntd=\count416
+\c@cbx@tempcnta=\count415
+\c@cbx@tempcntb=\count416
+\c@cbx@tempcntc=\count417
+\c@cbx@tempcntd=\count418
 Package biblatex Info: Redefining '\cite'.
 Package biblatex Info: Redefining '\parencite'.
 Package biblatex Info: Redefining '\footcite'.
@@ -387,41 +403,25 @@ Package: geometry 2020/01/02 v5.9 Page Geometry
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 )
-\Gm@cnth=\count417
-\Gm@cntv=\count418
-\c@Gm@tempcnt=\count419
-\Gm@bindingoffset=\dimen142
-\Gm@wd@mp=\dimen143
-\Gm@odd@mp=\dimen144
-\Gm@even@mp=\dimen145
-\Gm@layoutwidth=\dimen146
-\Gm@layoutheight=\dimen147
-\Gm@layouthoffset=\dimen148
-\Gm@layoutvoffset=\dimen149
+\Gm@cnth=\count419
+\Gm@cntv=\count420
+\c@Gm@tempcnt=\count421
+\Gm@bindingoffset=\dimen149
+\Gm@wd@mp=\dimen150
+\Gm@odd@mp=\dimen151
+\Gm@even@mp=\dimen152
+\Gm@layoutwidth=\dimen153
+\Gm@layoutheight=\dimen154
+\Gm@layouthoffset=\dimen155
+\Gm@layoutvoffset=\dimen156
 \Gm@dimlist=\toks22
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg)) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
-\c@float@type=\count420
+\c@float@type=\count422
 \float@exts=\toks23
 \float@box=\box50
 \@float@everytoks=\toks24
 \@floatcapt=\box51
-) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
-Package: caption 2020/10/26 v3.5g Customizing captions (AR)
- (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
-Package: caption3 2020/10/21 v2.2e caption3 kernel (AR)
-\captionmargin=\dimen150
-\captionmargin@=\dimen151
-\captionwidth=\dimen152
-\caption@tempdima=\dimen153
-\caption@indent=\dimen154
-\caption@parindent=\dimen155
-\caption@hangindent=\dimen156
-Package caption Info: Standard document class detected.
-)
-\c@caption@flags=\count421
-\c@continuedfloat=\count422
-Package caption Info: float package is loaded.
 ) (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/nomencl\nomencl.sty
 Package: nomencl 2021/11/10 v5.6 Nomenclature package
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
@@ -458,7 +458,7 @@ Package tocbasic Info: setting babel extension for `nls' on input line 188.
 \@nomenclaturefile=\write4
 \openout4 = `main_doc.nlo'.
 
-Package nomencl Info: Writing nomenclature file main_doc.nlo on input line 53.
+Package nomencl Info: Writing nomenclature file main_doc.nlo on input line 60.
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
 \@emptytoks=\toks27
@@ -1109,6 +1109,15 @@ LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
 LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 14.
 LaTeX Font Info:    ... okay on input line 14.
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+ (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
+)
+Package caption Info: End \AtBeginDocument code.
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count496
@@ -1190,16 +1199,8 @@ Package biblatex Info: Reference segment=0 on input line 14.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-Package caption Info: Begin \AtBeginDocument code.
-Package caption Info: hyperref package is loaded.
-Package caption Info: listings package is loaded.
-Package caption Info: longtable package is loaded.
-(C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
-Package: ltcaption 2020/05/30 v1.4b longtable captions (AR)
-)
-Package caption Info: End \AtBeginDocument code.
 Package hyperref Info: Link coloring ON on input line 14.
- (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+(C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
 Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
@@ -1235,7 +1236,7 @@ Package lastpage Info: Please have a look at the pageslts package at
  (C:\Users\josem\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
 Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
-)
+) The text float sep is 20.0pt plus 2.0pt minus 4.0pt The float float sep is 12.0pt plus 2.0pt minus 2.0pt The distance between text and floats inserted inside page text using h is 12.0pt plus 2.0pt minus 2.0pt
 \openout2 = `code/portada.aux'.
 
  (code/portada.tex
@@ -1273,12 +1274,12 @@ File: t1txtt.fd 2000/12/15 v3.1
 <img/logo.jpg, id=38, 399.6531pt x 126.9543pt>
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 26.
+Package pdftex.def Info: img/logo.jpg  used on input line 32.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 <img/fcefyn.png, id=39, 1112.155pt x 562.1pt>
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 26.
+Package pdftex.def Info: img/fcefyn.png  used on input line 32.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [2
 
@@ -1286,7 +1287,7 @@ Package pdftex.def Info: img/fcefyn.png  used on input line 26.
 
  <./img/logo.jpg> <./img/fcefyn.png>]
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <24.88> not available
-(Font)              Font shape `T1/txr/bx/n' tried instead on input line 31.
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 37.
  (main_doc.toc
 LaTeX Info: Redefining \sptext on input line 2.
 LaTeX Info: Redefining \. on input line 2.
@@ -1344,11 +1345,11 @@ LaTeX Info: Redefining \% on input line 2.
 )
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 37.
+Package pdftex.def Info: img/logo.jpg  used on input line 43.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 37.
+Package pdftex.def Info: img/fcefyn.png  used on input line 43.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [5]
 \openout2 = `code/table-list.aux'.
@@ -1378,11 +1379,11 @@ LaTeX Info: Redefining \% on input line 2.
 )
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 43.
+Package pdftex.def Info: img/logo.jpg  used on input line 49.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 43.
+Package pdftex.def Info: img/fcefyn.png  used on input line 49.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [7]
 \openout2 = `code/listing-list.aux'.
@@ -1408,11 +1409,11 @@ Package pdftex.def Info: img/fcefyn.png  used on input line 1.
 )
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 49.
+Package pdftex.def Info: img/logo.jpg  used on input line 55.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 49.
+Package pdftex.def Info: img/fcefyn.png  used on input line 55.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [9]
 \openout2 = `code/nomenclature.aux'.
@@ -1422,11 +1423,11 @@ No file main_doc.nls.
 )
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 54.
+Package pdftex.def Info: img/logo.jpg  used on input line 60.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 54.
+Package pdftex.def Info: img/fcefyn.png  used on input line 60.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [10
 
@@ -1439,9 +1440,11 @@ Package pdftex.def Info: img/fcefyn.png  used on input line 54.
 Cap\'{\i }tulo 1.
 LaTeX Font Info:    Font shape `T1/txr/b/n' in size <20.74> not available
 (Font)              Font shape `T1/txr/bx/n' tried instead on input line 1.
+LaTeX Font Info:    Font shape `T1/txr/b/n' in size <12> not available
+(Font)              Font shape `T1/txr/bx/n' tried instead on input line 9.
 LaTeX Font Info:    Font shape `T1/txr/b/it' in size <10.95> not available
 (Font)              Font shape `T1/txr/bx/it' tried instead on input line 21.
-<img//fases_comp.png, id=108, 636.3775pt x 463.7325pt>
+<img//fases_comp.png, id=115, 636.3775pt x 463.7325pt>
 File: img//fases_comp.png Graphic file (type png)
 <use img//fases_comp.png>
 Package pdftex.def Info: img//fases_comp.png  used on input line 57.
@@ -1455,63 +1458,91 @@ Package pdftex.def Info: img//fases_comp.png  used on input line 57.
 ]
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 103.
+Package pdftex.def Info: img/logo.jpg  used on input line 110.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 103.
+Package pdftex.def Info: img/fcefyn.png  used on input line 110.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [2]
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 134.
+Package pdftex.def Info: img/logo.jpg  used on input line 143.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 134.
+Package pdftex.def Info: img/fcefyn.png  used on input line 143.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [3 <./img//fases_comp.png>]
-<img//ejemplo_fasescomp.png, id=144, 595.22375pt x 836.12375pt>
+<img//ejemplo_fasescomp.png, id=153, 595.22375pt x 836.12375pt>
 File: img//ejemplo_fasescomp.png Graphic file (type png)
 <use img//ejemplo_fasescomp.png>
-Package pdftex.def Info: img//ejemplo_fasescomp.png  used on input line 158.
+Package pdftex.def Info: img//ejemplo_fasescomp.png  used on input line 159.
 (pdftex.def)             Requested size: 352.8138pt x 495.60521pt.
 )
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 63.
+Package pdftex.def Info: img/logo.jpg  used on input line 69.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 63.
+Package pdftex.def Info: img/fcefyn.png  used on input line 69.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [4]
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 63.
+Package pdftex.def Info: img/logo.jpg  used on input line 69.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 63.
+Package pdftex.def Info: img/fcefyn.png  used on input line 69.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [5 <./img//ejemplo_fasescomp.png>]
 File: img/logo.jpg Graphic file (type jpg)
 <use img/logo.jpg>
-Package pdftex.def Info: img/logo.jpg  used on input line 65.
+Package pdftex.def Info: img/logo.jpg  used on input line 71.
 (pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
 File: img/fcefyn.png Graphic file (type png)
 <use img/fcefyn.png>
-Package pdftex.def Info: img/fcefyn.png  used on input line 65.
+Package pdftex.def Info: img/fcefyn.png  used on input line 71.
 (pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
  [6
 
 
 
-] 
-AED: lastpage setting LastPage
-[7
+] [7
 
-] (main_doc.aux (code/portada.aux)
+]
+File: img/logo.jpg Graphic file (type jpg)
+<use img/logo.jpg>
+Package pdftex.def Info: img/logo.jpg  used on input line 86.
+(pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
+File: img/fcefyn.png Graphic file (type png)
+<use img/fcefyn.png>
+Package pdftex.def Info: img/fcefyn.png  used on input line 86.
+(pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
+ [8
+
+] [9]
+File: img/logo.jpg Graphic file (type jpg)
+<use img/logo.jpg>
+Package pdftex.def Info: img/logo.jpg  used on input line 86.
+(pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
+File: img/fcefyn.png Graphic file (type png)
+<use img/fcefyn.png>
+Package pdftex.def Info: img/fcefyn.png  used on input line 86.
+(pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
+ [10] 
+AED: lastpage setting LastPage
+File: img/logo.jpg Graphic file (type jpg)
+<use img/logo.jpg>
+Package pdftex.def Info: img/logo.jpg  used on input line 92.
+(pdftex.def)             Requested size: 92.61668pt x 29.41971pt.
+File: img/fcefyn.png Graphic file (type png)
+<use img/fcefyn.png>
+Package pdftex.def Info: img/fcefyn.png  used on input line 92.
+(pdftex.def)             Requested size: 57.33446pt x 28.97292pt.
+[11] (main_doc.aux (code/portada.aux)
 LaTeX Info: Redefining \sptext on input line 31.
 LaTeX Info: Redefining \. on input line 31.
 LaTeX Info: Redefining \% on input line 31.
@@ -1523,17 +1554,17 @@ Package logreq Info: Writing requests to 'main_doc.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 40585 strings out of 478659
- 802506 string characters out of 2845919
- 1507472 words of memory out of 3000000
- 57931 multiletter control sequences out of 15000+600000
- 477274 words of font info for 112 fonts, out of 8000000 for 9000
+ 40799 strings out of 478659
+ 813414 string characters out of 2845919
+ 1549506 words of memory out of 3000000
+ 58100 multiletter control sequences out of 15000+600000
+ 480323 words of font info for 115 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 125i,15n,120p,1191b,2783s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 125i,15n,120p,1179b,2783s stack positions out of 5000i,500n,10000p,200000b,80000s
 {C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/base/8r.enc}<C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxi.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxmi.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxr.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/rtxsc.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/public/txfonts/t1xtt.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmb8a.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmbi8a.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmr8a.pfb><C:/Users/josem/AppData/Local/Programs/MiKTeX/fonts/type1/urw/times/utmri8a.pfb>
-Output written on main_doc.pdf (17 pages, 578147 bytes).
+Output written on main_doc.pdf (21 pages, 628535 bytes).
 PDF statistics:
- 221 PDF objects out of 1000 (max. 8388607)
- 42 named destinations out of 1000 (max. 500000)
+ 372 PDF objects out of 1000 (max. 8388607)
+ 85 named destinations out of 1000 (max. 500000)
  83 words of extra memory for PDF output out of 10000 (max. 10000000)
 

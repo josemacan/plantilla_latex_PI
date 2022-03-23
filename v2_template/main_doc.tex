@@ -13,6 +13,12 @@
 
 \begin{document}
 
+
+
+\message{The text float sep is \the\textfloatsep}
+\message{The float float sep is \the\floatsep}
+\message{The distance between text and floats inserted inside page text using h is \the\intextsep}
+
     \frontmatter
 
     %--------------------------------------------------------------------------------------------------------------------------
@@ -69,9 +75,16 @@
     % ----------------------
 
     \begingroup     
+
+        \nocite{*}                      % Imprimir todas las bibliografias y referencias, aunque no se hayan citado
+
         \setlength\bibitemsep{1.5pt}    % 1.5pt interlineado entre entradas
         \setstretch{1}                  % 1pt interlineado entre lineas
-        \printbibliography
+        %\printbibliography
+
+        \printbibliography[type=book, title=Bibliografía]
+        \printbibliography[nottype=book, title=Referencias]
+
     \endgroup
 
 
