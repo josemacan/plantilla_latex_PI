@@ -14,79 +14,173 @@
 \begin{document}
 
 
-
-\message{The text float sep is \the\textfloatsep}
-\message{The float float sep is \the\floatsep}
-\message{The distance between text and floats inserted inside page text using h is \the\intextsep}
-
     \frontmatter
+
+    \pagenumbering{roman}
 
     %--------------------------------------------------------------------------------------------------------------------------
     %  PORTADA
     %--------------------------------------------------------------------------------------------------------------------------
-    \include{code/portada} 
+    \include{code/portada}
+
+    %--------------------------------------------------------------------------------------------------------------------------
+    %  ACTA DE EXAMEN
+    %--------------------------------------------------------------------------------------------------------------------------
+    \include{code/acta-examen}
+
+    %--------------------------------------------------------------------------------------------------------------------------
+    %  DEDICATORIA
+    %--------------------------------------------------------------------------------------------------------------------------
+    \include{code/dedicatoria}
+
+    %--------------------------------------------------------------------------------------------------------------------------
+    %  AGRADECIMIENTOS
+    %--------------------------------------------------------------------------------------------------------------------------
+    \include{code/agradecimientos}
 
     %--------------------------------------------------------------------------------------------------------------------------
     %  RESUMEN
     %--------------------------------------------------------------------------------------------------------------------------
-    \include{code/abstract}
+    \include{code/resumen}
 
     %--------------------------------------------------------------------------------------------------------------------------
-    % TABLA DE CONTENIDOS
+    %  ABSTRACT
     %--------------------------------------------------------------------------------------------------------------------------
-    \tableofcontents
+    \include{code/abstract}    
+
+    %--------------------------------------------------------------------------------------------------------------------------
+    % ÍNDICE
+    %--------------------------------------------------------------------------------------------------------------------------
+    \include{code/indice}
+
 
     %--------------------------------------------------------------------------------------------------------------------------
     % LISTA DE FIGURAS
     % Incluir numero de figura, titulo de la figura y numero de pagina.
     %--------------------------------------------------------------------------------------------------------------------------
-    \include{code/figure-list}
+    \include{code/lista-figuras}
 
     %--------------------------------------------------------------------------------------------------------------------------
     % LISTA DE TABLAS
     % Incluir numero de tabla, titulo de la tabla y numero de pagina.
     %--------------------------------------------------------------------------------------------------------------------------
-    \include{code/table-list}
+    \include{code/lista-tablas}
 
     %--------------------------------------------------------------------------------------------------------------------------
-    % LISTA DE LISTINGS
-    % Incluir numero de listing, titulo de la listing y numero de pagina.
+    % LISTA DE CODIGOS
+    % Incluir numero de listing de codigo, titulo de la listing y numero de pagina.
     %--------------------------------------------------------------------------------------------------------------------------
-    \include{code/listing-list}
+    \include{code/lista-codigos}
 
     %--------------------------------------------------------------------------------------------------------------------------
-    % NOMENCLATURA
+    % LISTA DE ACRÓNIMOS
     %--------------------------------------------------------------------------------------------------------------------------
-    \include{code/nomenclature}
+    \include{code/lista-acronimos}
+ 
 
     %------------------
     \mainmatter
     %------------------
 
-    %--------------------------------------------------------------------------------------------------------------------------
-    % CAPITULO 1: COMPILADORES
-    %--------------------------------------------------------------------------------------------------------------------------
-    \include{code/cap1-compiladores}
+        \pagenumbering{arabic}
+
+        %--------------------------------------------------------------------------------------------------------------------------
+        % CAPITULO 1: COMPILADORES
+        %--------------------------------------------------------------------------------------------------------------------------
+        \include{code/cap1-introduccion}
+
+        % ************************************************************************************************************************
+        %                                       PARTE: MARCO TEORICO
+        % ************************************************************************************************************************
+
+        \part{Marco teórico}
+
+        % El Marco Teórico puede tener varios Capítulos
+        % Aquí se hace el desarrollo de los temas teóricos y conceptuales más importantes que impactan en el 
+        % trabajo o que son específicos del mismo. No debe ser una recopilación de artículos y capítulos 
+        % totales o parciales de libros. 
+        % Debe ser un desarrollo del alumno en cuanto a lo teórico, basándose en la bibliografía o de 
+        % temas vistos en clase. Debe incluir términos específicos, conceptos y teorías que ayuden a conocer 
+        % la temática seleccionada
+        % MUY IMPORTANTE: NO SE DEBE HACER REFERENCIA AL MARCO METODOLÓGICO. SI PUEDE TENER REFERENCIAS A LOS ANEXOS
+
+        %--------------------------------------------------------------------------------------------------------------------------
+        % CAPITULO 2: **CAPITULO 2**
+        %--------------------------------------------------------------------------------------------------------------------------
+        \include{code/cap2-capitulo2}       
+
+
+        % ************************************************************************************************************************
+        %                                       PARTE: MARCO METODOLOGICO
+        % ************************************************************************************************************************        
+
+        \part{Marco metodológico}
+
+        % El Marco Metodológico puede tener varios Capítulos
+        % Aquí se desarrolla concretamente el PI, qué se hizo, cómo se hizo y con que se hizo. El procedimiento 
+        % de diseño, simulación, armado de partes, ensambles, mediciones, etc.
+        % Es conveniente que haga referencias al Marco Teórico y a los Anexos
+        
+
+        %--------------------------------------------------------------------------------------------------------------------------
+        % CAPITULO N: COMPILADORES
+        %--------------------------------------------------------------------------------------------------------------------------
+        \include{code/capN-compiladores}    
+
+        %--------------------------------------------------------------------------------------------------------------------------
+        % CAPITULO N: DESCRIPCION DEL MODELO EXPERIMENTAL (OPCIONAL)
+        %--------------------------------------------------------------------------------------------------------------------------
+        \include{code/capN-descrip_modelo}    
+        
+        %--------------------------------------------------------------------------------------------------------------------------
+        % CAPITULO N: RESULTADOS
+        %--------------------------------------------------------------------------------------------------------------------------
+        \include{code/capN-resultados}    
+
+        %--------------------------------------------------------------------------------------------------------------------------
+        % CAPITULO N: CONCLUSIONES
+        %--------------------------------------------------------------------------------------------------------------------------
+        \include{code/capN-conclusiones} 
+
+
+
+        % ----------------------
+        % --------- BIBLIOGRAFÍA
+        % ----------------------
+
+        \begingroup     
+
+            \nocite{*}                      % Imprimir todas las bibliografias y referencias, aunque no se hayan citado
+
+            \setlength\bibitemsep{1.5pt}    % 1.5pt interlineado entre entradas
+            \setstretch{1}                  % 1pt interlineado entre lineas
+
+            \printbibliography[type=book, title=Bibliografía]
+            \printbibliography[nottype=book, title=Referencias]
+
+        \endgroup
+
+        % ----------------------
+        % --------- ANEXO
+        % ----------------------
+
+        \begin{appendices} 
+
+            \renewcommand{\thechapter}{\Roman{chapter}}         % Numeracion de los anexos en numeros romanos
+
+            %--------------------------------------------------------------------------------------------------------------------------
+            % ANEXO 1: TITULO ANEXO 1 
+            %--------------------------------------------------------------------------------------------------------------------------
+            \include{code/anexo1}     
+
+            %--------------------------------------------------------------------------------------------------------------------------
+            % ANEXO 2: TITULO ANEXO 2 
+            %--------------------------------------------------------------------------------------------------------------------------
+            \include{code/anexo2} 
+    
+        \end{appendices}
+
 
     \backmatter
-
-    % ----------------------
-    % --------- BIBLIOGRAFÍA
-    % ----------------------
-
-    \begingroup     
-
-        \nocite{*}                      % Imprimir todas las bibliografias y referencias, aunque no se hayan citado
-
-        \setlength\bibitemsep{1.5pt}    % 1.5pt interlineado entre entradas
-        \setstretch{1}                  % 1pt interlineado entre lineas
-        %\printbibliography
-
-        \printbibliography[type=book, title=Bibliografía]
-        \printbibliography[nottype=book, title=Referencias]
-
-    \endgroup
-
-
 
 \end{document}

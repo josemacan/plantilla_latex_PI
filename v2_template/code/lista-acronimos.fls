@@ -1,0 +1,6 @@
+PWD c:\Users\josem\Documents\git\plantilla_latex_PI\v2_template\code
+INPUT C:\Users\josem\AppData\Local\MiKTeX\miktex\data\le\pdftex\pdflatex.fmt
+INPUT c:\Users\josem\Documents\git\plantilla_latex_PI\v2_template\code\lista-acronimos.tex
+OUTPUT lista-acronimos.log
+OUTPUT lista-acronimos.pdf
+INPUT C:\Users\josem\AppData\Local\MiKTeX\fonts\map\pdftex\pdftex.map

@@ -1,7 +1,7 @@
 \ProvidesPackage{formato_PI}    % Identifica el archivo de paquete de estilos llamado **formato_PI**
 %--------------------------------------------------------------------------------------------------------------------------
 
-% BLOB
+% ACRONIMOS
 \usepackage{blindtext}          % para generar texto a los fines de mostrar contenido en el template (se puede eliminar este paquete)
 \usepackage{acronym}
 
@@ -85,6 +85,22 @@
 
 \usepackage{xcolor}                     % Opciones de color
 
+%% ---- GLOSARIO, LISTA DE TÉRMINOS Y ACRÓNIMOS
+
+\usepackage{glossaries}                 % Paquete para desplegar glosarios, lista de terminos o lista de acronimos 
+
+%% ---- ANEXOS
+
+%\usepackage[title,toc,titletoc,page]{appendix}					% Manejo de anexos
+ 
+\usepackage[titletoc]{appendix}					% Manejo de anexos
+
+\addto\captionsspanish{%
+  \renewcommand\appendixname{Anexo}
+  \renewcommand\appendixpagename{Anexos}
+}
+
+
 %% ---- TITULOS              
 \usepackage{titlesec}                   % Alternative title styles for the different parts of the doc
 \setcounter{secnumdepth}{5}             % Num de niveles de titulos a ser numerados y aparecer en la tabla de contenidos (TOC)
@@ -97,6 +113,10 @@
 \definecolor{codegray}{rgb}{0.5,0.5,0.5}
 \definecolor{codepurple}{rgb}{0.58,0,0.82}
 \definecolor{backcolour}{rgb}{0.95,0.95,0.92}           % Color del fondo de una figura
+
+%% ----  LINEAS
+
+\newcommand{\HRule}{\rule{\linewidth}{0.5mm}} % Defines a new command for the horizontal lines, change thickness here
 
 %% ---- CABECERAS Y PIES DE PAGINA
 
@@ -129,7 +149,7 @@
     keywordstyle=\color{blue},              % Estilo de las palabras reservadas del lenguaje
     numberstyle=\tiny\color{codegray},      % Estilo de los numeros de lineas de codigo
     stringstyle=\color{codepurple},         % Estilo de los strings 
-    basicstyle=\ttfamily\footnotesize,      % Tipo y tamaño de fuente del codigo 
+    basicstyle=\linespread{1}\ttfamily\footnotesize,      % Tipo y tamaño de fuente del codigo , interlineado simple
     captionpos=b,                           % Posicion de la descripcion del cuadro de codigo. t = top / b = bottom
     keepspaces=true,                        % Mantener o no los espacios del codigo
     numbers=left,                           % Posicion de los numeros de lineas. left/right/none
@@ -167,7 +187,33 @@
 %\titlespacing*{\paragraphs}{2em}{3.5ex plus 1ex minus .2ex}{2.3ex plus .2ex}
 
 
+%% ---- FECHAS
 
+\usepackage{datetime}
+\newdateformat{monthyeardate}{%
+	\monthname[\THEMONTH] / \THEYEAR}
+\makeatletter
+\renewcommand{\monthnamespanish}[1][\month]{%
+	\@orgargctr=#1\relax
+	\ifcase\@orgargctr
+	\PackageError{datetime}{Invalid Month number \the\@orgargctr}{%
+		Month numbers should go from 1 to 12}%
+	\or Enero%
+	\or Febrero%
+	\or Marzo%
+	\or Abril%
+	\or Mayo%
+	\or Junio%
+	\or Julio%
+	\or Agosto%
+	\or Septiembre%
+	\or Octubre%
+	\or Noviembre%
+	\or Diciembre%
+	\else \PackageError{datetime}{Invalid Month number \the\@orgargctr}{%
+		Month numbers should go from 1 to 12}%
+	\fi}
+\makeatother
 
 
 \lstset{style=formato_PI}

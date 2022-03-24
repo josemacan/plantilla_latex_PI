@@ -19,6 +19,42 @@
 
 \refsection{0}
   \datalist[entry]{none/global//global/global}
+    \entry{repo_trabajo_codigofuente}{misc}{}
+      \name{author}{2}{}{%
+        {{hash=6718cc2a49ad7480c4f9b984f538287e}{%
+           family={Cancinos},
+           familyi={C\bibinitperiod},
+           given={Jose},
+           giveni={J\bibinitperiod}}}%
+        {{hash=f7ad1f197bf39db3372850bf354c6bba}{%
+           family={Gonzalez},
+           familyi={G\bibinitperiod},
+           given={Julian},
+           giveni={J\bibinitperiod}}}%
+      }
+      \strng{namehash}{b35cfb3d53de4729f864f63cfb121135}
+      \strng{fullhash}{b35cfb3d53de4729f864f63cfb121135}
+      \strng{bibnamehash}{b35cfb3d53de4729f864f63cfb121135}
+      \strng{authorbibnamehash}{b35cfb3d53de4729f864f63cfb121135}
+      \strng{authornamehash}{b35cfb3d53de4729f864f63cfb121135}
+      \strng{authorfullhash}{b35cfb3d53de4729f864f63cfb121135}
+      \field{extraname}{1}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{title}{Codigo fuente - ejemplo.c}
+      \field{urlday}{17}
+      \field{urlmonth}{11}
+      \field{urlyear}{2021}
+      \field{urldateera}{ce}
+      \verb{urlraw}
+      \verb https://github.com/josemacan/PSCompiladores/blob/main/PPS/GCCvsCLANGLLVM/GCC/ejemplo.c
+      \endverb
+      \verb{url}
+      \verb https://github.com/josemacan/PSCompiladores/blob/main/PPS/GCCvsCLANGLLVM/GCC/ejemplo.c
+      \endverb
+    \endentry
     \entry{von_hagen_definitive_2006}{book}{}
       \name{author}{1}{}{%
         {{hash=ae6c825566f3473e203ee9e9efb3e213}{%
@@ -39,8 +75,8 @@
       \strng{authorbibnamehash}{ae6c825566f3473e203ee9e9efb3e213}
       \strng{authornamehash}{ae6c825566f3473e203ee9e9efb3e213}
       \strng{authorfullhash}{ae6c825566f3473e203ee9e9efb3e213}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{edition}{2nd ed}
@@ -74,8 +110,8 @@
       \strng{editorbibnamehash}{d0ecc656d568959f4e5a84bba58eae49}
       \strng{editornamehash}{d0ecc656d568959f4e5a84bba58eae49}
       \strng{editorfullhash}{d0ecc656d568959f4e5a84bba58eae49}
-      \field{sortinit}{8}
-      \field{sortinithash}{a231b008ebf0ecbe0b4d96dcc159445f}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
       \field{labelnamesource}{editor}
       \field{labeltitlesource}{shorttitle}
       \field{edition}{2nd ed}
@@ -309,8 +345,8 @@
       \strng{authorbibnamehash}{8e794f3113c883242c2533ada58d710d}
       \strng{authornamehash}{8e794f3113c883242c2533ada58d710d}
       \strng{authorfullhash}{8e794f3113c883242c2533ada58d710d}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{{LLVM} {Language} {Reference} {Manual} — {LLVM} 12 documentation}
@@ -327,8 +363,8 @@
       \endverb
     \endentry
     \entry{noauthor_toolchain_nodate}{misc}{}
-      \field{sortinit}{1}
-      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labeltitlesource}{title}
       \field{title}{Toolchain build procedures}
       \field{urlday}{17}
@@ -423,7 +459,7 @@
       \strng{authorbibnamehash}{b35cfb3d53de4729f864f63cfb121135}
       \strng{authornamehash}{b35cfb3d53de4729f864f63cfb121135}
       \strng{authorfullhash}{b35cfb3d53de4729f864f63cfb121135}
-      \field{extraname}{1}
+      \field{extraname}{2}
       \field{sortinit}{2}
       \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
       \field{labelnamesource}{author}
@@ -439,43 +475,6 @@
       \endverb
       \verb{url}
       \verb https://github.com/josemacan/PSCompiladores/tree/main/PPS/GCCvsCLANGLLVM
-      \endverb
-    \endentry
-    \entry{repo_trabajo_codigofuente}{misc}{}
-      \name{author}{2}{}{%
-        {{hash=6718cc2a49ad7480c4f9b984f538287e}{%
-           family={Cancinos},
-           familyi={C\bibinitperiod},
-           given={Jose},
-           giveni={J\bibinitperiod}}}%
-        {{hash=f7ad1f197bf39db3372850bf354c6bba}{%
-           family={Gonzalez},
-           familyi={G\bibinitperiod},
-           given={Julian},
-           giveni={J\bibinitperiod}}}%
-      }
-      \strng{namehash}{b35cfb3d53de4729f864f63cfb121135}
-      \strng{fullhash}{b35cfb3d53de4729f864f63cfb121135}
-      \strng{bibnamehash}{b35cfb3d53de4729f864f63cfb121135}
-      \strng{authorbibnamehash}{b35cfb3d53de4729f864f63cfb121135}
-      \strng{authornamehash}{b35cfb3d53de4729f864f63cfb121135}
-      \strng{authorfullhash}{b35cfb3d53de4729f864f63cfb121135}
-      \field{extraname}{2}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
-      \field{labelnamesource}{author}
-      \field{labeltitlesource}{title}
-      \field{title}{Codigo fuente - ejemplo.c}
-      \field{urlday}{17}
-      \field{urlmonth}{11}
-      \field{urlyear}{2021}
-      \field{urldateera}{ce}
-      \true{nocite}
-      \verb{urlraw}
-      \verb https://github.com/josemacan/PSCompiladores/blob/main/PPS/GCCvsCLANGLLVM/GCC/ejemplo.c
-      \endverb
-      \verb{url}
-      \verb https://github.com/josemacan/PSCompiladores/blob/main/PPS/GCCvsCLANGLLVM/GCC/ejemplo.c
       \endverb
     \endentry
     \entry{repo_trabajo_gcc_preprocessor}{misc}{}
@@ -646,8 +645,8 @@
       \strng{authornamehash}{b35cfb3d53de4729f864f63cfb121135}
       \strng{authorfullhash}{b35cfb3d53de4729f864f63cfb121135}
       \field{extraname}{7}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{CLANG/LLVM - ejemplo.ast}
@@ -683,8 +682,8 @@
       \strng{authornamehash}{b35cfb3d53de4729f864f63cfb121135}
       \strng{authorfullhash}{b35cfb3d53de4729f864f63cfb121135}
       \field{extraname}{8}
-      \field{sortinit}{2}
-      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{sortinit}{3}
+      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{GCC - ejemplo.c.005t.gimple}
@@ -949,8 +948,8 @@
       \list{language}{1}{%
         {en-us}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{title}{Declaring Attributes of Functions, GNU}
       \field{urlday}{17}
@@ -969,8 +968,8 @@
       \list{language}{1}{%
         {en-us}%
       }
-      \field{sortinit}{3}
-      \field{sortinithash}{ad6fe7482ffbd7b9f99c9e8b5dccd3d7}
+      \field{sortinit}{4}
+      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
       \field{labeltitlesource}{title}
       \field{title}{Assembler warning with gcc warning when placing data in .text, stackoverflow}
       \field{urlday}{17}
@@ -1218,8 +1217,8 @@
       \strng{authornamehash}{fc6a33c4edc938f7a233215e3a276e07}
       \strng{authorfullhash}{fc6a33c4edc938f7a233215e3a276e07}
       \field{extraname}{7}
-      \field{sortinit}{4}
-      \field{sortinithash}{9381316451d1b9788675a07e972a12a7}
+      \field{sortinit}{5}
+      \field{sortinithash}{20e9b4b0b173788c5dace24730f47d8c}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{title}{Programa de lectura de metadata insertada en ejecutable ELF}

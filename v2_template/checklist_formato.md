@@ -21,16 +21,21 @@ CONSIDERACIONES GENERALES PARA TODO EL INFORME:
 -	**Interlineado**: 
     - **Interlineado en el texto**: 1,5 espacios. 
     OK: \renewcommand{\baselinestretch}{1.5}  en formato_PI.sty 
-    - **Notas y citas textuales**: espacio simple.
+    - **Notas y citas textuales**: espacio simple. 1
     OK: \setstretch{1}
 
-            or
+            o
     
         \begingroup     
             \setstretch{1}                  
         \endgroup
 
         en el lugar donde se necesite interlineado simple.
+
+            o en listings
+
+        basicstyle=\linespread{1} en formato_PI.sty
+
 
 -	Distribuir el contenido en:
 
