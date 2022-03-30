@@ -1,6 +1,6 @@
 # Plantilla PI - Latex
 
-Repositorio de la plantilla en Latex para la realización del informe de la asignatura Proyecto Integrador de la carrera de Ingeniería en Computación de la Facultad de Ciencias Exactas, Físicas y Naturales, Universidad Nacional de Córdoba.
+Repositorio de la plantilla en Latex para la realización de nuestro informe de la asignatura Proyecto Integrador.
 
 ## Inicios
 
@@ -13,3 +13,9 @@ El mensaje de creación de la misma es el siguiente:
 Ésta plantilla fue creada en 2018, tal como se menciona anteriormente.
 
 Se ha contactado a la cátedra de Proyecto Integrador de la carrera de Ingeniería Electrónica para obtener este documento y, así, poder actualizarlo y mantenerlo; siguiendo los lineamientos de formato que dicha cátedra define.
+
+## Confección
+
+La presente plantilla está siendo desarrollada en base a lo descripto anteriormente, y en conjunto con recomendaciones de la cátedra de PI de Ingeniería en Computación - FCEFYN.
+
+Ésta no es la plantilla oficial aprobada por la cátedra de PI de ICOM ni por la escuela de ICOM. Como se mencionó anteriormente, ha sido desarrollada hasta el momento para la confección del informe del equipo de alumnos en cuestión.
